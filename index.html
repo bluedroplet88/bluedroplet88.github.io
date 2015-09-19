@@ -4,160 +4,9 @@
 			Blueskys Shit
 		</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Muli|Poiret+One|Quicksand">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<style>
-
-			.background {
-				background-color: rgb(245, 245, 245);
-				opacity: 1;
-			}
-			.container {
-				width: 1000px; 
-				background-color: #fcfcfc;
-			}
-			.menuitem {
-				float: left;
-				font-family: "Quicksand";
-				font-weight: 200;
-			    font-style: normal;
-			    font-size: 16px;
-			    line-height: 15px;
-				color: #999;
-				margin-left: 10px;
-				margin-right: 10px;
-				
-			}
-			.menuitem:hover {
-			  color: rgba(0, 0, 0, 0.7);	
-			}		
-			.topmenu {
-				width: 975px; 
-				height: 50px; 
-				margin: auto;
-			}
-			.topheader {
-				width: 975px; 
-				height: 75px; 
-				margin: auto; 
-				background-color: #fcfcfc;
-				border-bottom-style: dotted;
-				border-bottom-width: 1px;
-				border-color: #999;
-			}
-			.centerbar {
-				width: 95%; 
-				text-align: center;
-			}
-			.centertextbar{
-				width: 975px; 
-				height: 50px; 
-				margin-top: 30px;
-			}
-			.centertextitems1 {
-				float: left;
-				font-family: "Quicksand";
-				font-weight: 200;
-			    font-style: normal;
-			    font-size: 32px;
-			    line-height: 15px;
-				color: #999;
-				margin-bottom: 20px;	
-				background: rgb(0, 0, 0); /* fallback color */
-   				background: rgba(0, 0, 0, 0.5);	
-   				color: white; 
- 				padding-left: 65px;
- 				padding-right: 65px;
- 				padding-top: 10px;
- 				padding-bottom: 10px;
-			}
-			.centertextitems2 {
-				float: left;
-				font-family: "Quicksand";
-				font-weight: 200;
-			    font-style: normal;
-			    font-size: 32px;
-			    line-height: 15px;
-				color: #999;
-				margin-left: 40px;
-				margin-right: 40px;		
-				margin-bottom: 20px;	
-				background: rgb(0, 0, 0); /* fallback color */
-   				background: rgba(0, 0, 0, 0.5);	
-   				color: white; 
- 				padding-left: 85px;
- 				padding-right: 85px;
- 				padding-top: 10px;
- 				padding-bottom: 10px;
-
-			}
-			.centertextitems3 {
-				float: left;
-				font-family: "Quicksand";
-				font-weight: 200;
-			    font-style: normal;
-			    font-size: 32px;
-			    line-height: 15px;
-				color: #999;	
-				margin-bottom: 20px;	
-				background: rgb(0, 0, 0); /* fallback color */
-   				background: rgba(0, 0, 0, 0.5);	
-   				color: white; 
- 				padding-left: 100px;
- 				padding-right: 100px;
- 				padding-top: 10px;
- 				padding-bottom: 10px;
-			}
-			.centertextitems1:hover {
-			  background-color: rgba(0, 0, 0, 0.7);
-			}
-			.centertextitems2:hover {
-			  background-color: rgba(0, 0, 0, 0.7);
-			}
-			.centertextitems3:hover {
-			  background-color: rgba(0, 0, 0, 0.7);
-			}
-			.bottombar {
-				width: 95%;
-				margin: auto;
-				margin-bottom: 20px;
-			}
-			#Headerlogo{
-				width:200px;
-				height:35px;
-				float: right;
-				margin: auto
-			}
-			#Centerpic {
-				opacity: .8;
-				width:400px;
-				height:300px;
-    			margin-top: 50px;
-
-			}
-			#Centertext {
-				width:250px;
-				height:65px;
-    			margin-right: 50px;
-    			margin-top: 50px;
-    			
-			}
-			.bottompic {
-				width:275px;
-				height:275px;
-    			margin-right: 13px;
-    			margin-left: 13px;
-    			opacity: .9;
-  			
-			}	
-		 
-			.bottompic:hover {
-				-webkit-filter:grayscale(100%);
-			}
-			ul {
-				list-style: none;
-			}
-		</style>
 	</head>
 	<body>
 		<div class = "background" >
@@ -167,7 +16,10 @@
 					</div>	
 					<ul class = "menubar"> 
 						<li class = "menuitem">
-							PRODUCTS
+							<a href="index.html"> HOME </a> 
+						</li> 	
+						<li class = "menuitem">
+							<a href="Products.html"> PRODUCTS </a> 
 						</li>
 						<li class = "menuitem">
 							CONTACT
@@ -188,20 +40,21 @@
 				</div>	
 				<div class = "centertextbar">
 					<ul class = "centerbar"> 
-						<li class = "centertextitems1">
+						<li class = "centertextitem" id = "centertextitems1">
 							Originals
 						</li>
-						<li class = "centertextitems2">
+						<li class = "centertextitem" id = "centertextitems2">
 							Prints
 						</li>
-						<li class  = "centertextitems3">
+						<li class = "centertextitem" id  = "centertextitems3">
 							Sale
+						</li>
 					</ul>	
 				</div>		
 				<div class = "bottombar">
-					<img class  = "bottompic" src="http://i.imgur.com/xP42otV.jpg?2" alt = "bottompic1" >	
-					<img class  = "bottompic" src="http://i.imgur.com/24dp6O4.jpg?1" alt = "bottompic2" >	
-					<img class  = "bottompic" src="http://i.imgur.com/CAmoe2K.jpg?2" alt = "bottompic3" >	
+					<img class  = "bottompic" src="http://i.imgur.com/2EJ3d3n.png" alt = "bottompic1" >	
+					<img class  = "bottompic" src="http://i.imgur.com/X2cO5BE.png" alt = "bottompic2" >	
+					<img class  = "bottompic" src="http://i.imgur.com/DbwaCCb.png" alt = "bottompic3" >
 				</div>	
 			</div>	
 		</div>	

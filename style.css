@@ -1,0 +1,157 @@
+
+a {
+	color:#999
+}
+a:hover {
+	color:rgba(0, 0, 0, 0.7);
+}				
+.background {
+	background-color: rgb(245, 245, 245);
+	opacity: 1;
+}
+.container {
+	width: 1000px; 
+	background-color: #fcfcfc;
+}
+.menuitem {
+	float: left;
+	font-family: "Quicksand";
+	font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 15px;
+	color: #999;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+.menuitem:hover {
+  color: rgba(0, 0, 0, 0.7);	
+}	
+#toplogo {
+	width: 80px;
+	height: 25px;
+	float: right;
+}		
+.topmenu {
+	width: 975px; 
+	height: 50px; 
+	margin: auto;
+}
+.topheader {
+	width: 975px; 
+	height: 75px; 
+	margin: auto; 
+	background-color: #fcfcfc;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	border-color: #999;
+}
+.centerbar {
+	width: 95%; 
+	text-align: center;
+}
+.centertextbar{
+	width: 975px; 
+	height: 50px; 
+	margin-top: 30px;
+}
+
+.centertextitem {
+	float: left;
+	font-family: "Quicksand";
+	font-weight: 200;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 15px;
+	color: #999;
+		color: white; 
+		padding-top: 10px;
+		padding-bottom: 10px;
+	margin-bottom: 20px;	
+  	background-color: rgba(0, 0, 0, 0.5);
+  	-webkit-transition: background-color 0.15s ease-in;
+  	-moz-transition: background-color 0.15s ease-in;
+  	transition: background-color 0.15s ease-in;
+}
+.centertextitem:hover {
+  	background-color: rgba(0, 0, 0, 0.7);
+  	-webkit-transition: background-color 0.1s;
+  	-moz-transition: background-color 0.1s;
+  	transition:background-color 0.1s;
+}
+#centertextitems1 {
+		padding-left: 65px;
+		padding-right: 65px;
+}
+#centertextitems2 {
+	margin-left: 40px;
+	margin-right: 40px;		
+		padding-left: 85px;
+		padding-right: 85px;
+}
+#centertextitems3 {
+		padding-left: 100px;
+		padding-right: 100px;
+}
+
+.bottombar {
+	width: 95%;
+	margin: auto;
+	margin-bottom: 
+}
+#Headerlogo{
+	width:200px;
+	height:35px;
+	float: right;
+	margin: auto
+}
+#Centerpic {
+	opacity: .8;
+	width:400px;
+	height:300px;
+	margin-top: 50px;
+
+}
+#Centertext {
+	width:250px;
+	height:65px;
+	margin-right: 50px;
+	margin-top: 50px;
+	
+}
+.bottompic {
+	width:275px;
+	height:275px;
+	margin-right: 13px;
+	margin-left: 13px;
+	margin-bottom: 10px;
+	opacity: .9;
+	padding: 10px;
+	
+}	
+
+.bottompic:hover {
+	-webkit-filter:grayscale(100%);
+}
+ul {
+	list-style: none;
+}
+
+.bodycontainer {
+
+}
+.bodycontainer h2 {
+	text-align: center;
+	font-family: "Quicksand";
+	color: #999;
+	margin-bottom: 0px;
+	margin-top: 50px;
+}
+.bodycontainer h3 {
+	text-align: center;
+	font-family: "Indie Flower";
+	color: rgb(71, 71, 71);
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
